@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Us</title>
+<style>
+
+  /* ---------- 1. ELEMENT SELECTORS ---------- */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F0;   /* HEX */
+    color: #222222;              /* HEX */
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1, h2 {
+    color: rgb(40, 60, 90);      /* RGB */
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  a {
+    color: rgb(0, 102, 153);     /* RGB */
+  }
+
+
+  /* ---------- 2. CLASS SELECTORS ---------- */
+  .section {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+  }
+
+  .highlight {
+    background-color: #FFF3CD;   /* HEX */
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+  /* ---------- 3. ID SELECTOR ---------- */
+  #header {
+    text-align: center;
+    background-color: rgb(40, 60, 90);  /* RGB */
+    color: #FFFFFF;
+    padding: 20px;
+  }
+
+
+  /* ---------- 4. PSEUDO-CLASS SELECTORS ---------- */
+  a:hover {
+    color: #CC5500;
+  }
+
+  li:hover {
+    background-color: #EFEFEF;
+  }
+
+  li:first-child {
+    font-weight: bold;
+  }
+
+
+  /* ---------- Ordered list: Movies ---------- */
+  .movie-list {
+    padding-left: 20px;
+  }
+
+  .movie-list li {
+    margin-bottom: 6px;
+  }
+
+
+  /* ---------- Unordered list: Cities ---------- */
+  .city-list {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+
+  .city-list li {
+    margin-bottom: 6px;
+    color: rgb(40, 60, 90);
+  }
+
+</style>
+</head>
+<body>
+
+  <div id="header">
+    <h1>About Us</h1>
+    <p>Welcome to our little corner of the web.</p>
+  </div>
+
+  <div class="section">
+    <h2>Our Story</h2>
+    <p class="highlight">
+      We started as three friends who loved good movies and long trips —
+      and decided to turn that into a small studio.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Favorite Movies</h2>
+    <ol class="movie-list">
+      <li>In the Mood for Love</li>
+      <li>Lost in Translation</li>
+      <li>Before Sunrise</li>
+      <li>City of God</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>Cities We Love</h2>
+    <ul class="city-list">
+      <li>Lisbon</li>
+      <li>Osaka</li>
+      <li>Porto</li>
+      <li>Nairobi</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <p>Want to know more? <a href="#">Contact us</a>.</p>
+  </div>
+
+</body>
+</html>
